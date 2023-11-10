@@ -11,10 +11,10 @@ Add following lines in SD card to file `config.txt`:
 
 ```
 framebuffer_width=1024
-framebuffer_height=600
-hdmi_cvt 1024 600 60 1 0 0 0
+framebuffer_height=605
+hdmi_cvt 1024 605 60 1 0 0 0
 ```
 
 **Step 2:** 
 
-Add `video=HDMI-A-1:1200x600@60D` to the beginning of `cmdline.txt` file in SD card
+Add `video=HDMI-A-1:1200x605@60D` to the beginning of `cmdline.txt` file in SD card
